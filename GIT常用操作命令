@@ -10,3 +10,7 @@
 	git add [文件路径/文件名] 将工作区的“新建/修改添加到暂存区”
 提交操作
 	git commit -m "[添加提交的信息]" [文件路径/文件名] 将暂存区的内容提交到本地库
+查看历史记录
+	git log  显示完整修改记录
+	git log --pretty=oneline/git log --oneline 显示简单日志(每条记录会显示为一行)
+	git reflog  显示简单日志(会比git log --oneline命令多显示-- Head{到某个版本需要移动的次数})
