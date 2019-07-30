@@ -1,0 +1,12 @@
+[
+  {
+    "description": "moco框架示例",
+    "request":{
+      "uri": "/chapter7seven/moco",
+      "method": "get"
+    },
+    "response": {
+      "text": "启动moco成功"
+    }
+  }
+]
