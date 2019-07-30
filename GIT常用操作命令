@@ -14,3 +14,9 @@
 	git log  显示完整修改记录
 	git log --pretty=oneline/git log --oneline 显示简单日志(每条记录会显示为一行)
 	git reflog  显示简单日志(会比git log --oneline命令多显示-- Head{到某个版本需要移动的次数})
+前进后退
+	基于索引值跳转：git reset --hard [hash码] 跳转到某一版本
+	使用^符号--只能后退：git reset --hard HEAD^ 表示回退上一（某一个）版本
+		注：回退上几个版本，后边的^数量就有几个
+	使用~符号--只能后退：git reset --hard HEAD~[向后退几个版本，这里就是几] 表示回退上一（某一个）版本
+	
